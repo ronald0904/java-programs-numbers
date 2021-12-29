@@ -1,0 +1,18 @@
+import java.util.*;
+
+// This program is to find the no of digits in a given value
+
+class NoOfDigit
+{
+public static void main(String ar[])
+{
+int a,count=0;
+System.out.println("Enter the number: ");
+while(a!=0)
+{
+a/=10;
+++count;
+}
+System.out.println("The no of digits are: "+count);
+}
+}
